@@ -1,6 +1,6 @@
 html {
   background-image: url("Background.jpg");
-  background-position: fixed;
+  background-position: absolute;
   background-attachment: fixed;
   /*
   -webkit-background-size: cover;
