@@ -1,4 +1,29 @@
 html {
-  margin: 2%;
+  background-image: url("Background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2874A6;
+}
+
+body{
   background-color: #FEF9E7;
+  border: 3px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+div{
+  margin: 2% 2% 2% 2%;
+}
+
+.navbar {
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
