@@ -1,12 +1,7 @@
 html {
-  background-image: url("Background.jpg");
+  background-image: url("BackgroundScaled.jpg");
   background-position: absolute;
   background-attachment: fixed;
-  /*
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  */
   background-size: 100% 80%;
   background-repeat: no-repeat;
   background-color: #2874A6;
