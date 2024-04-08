@@ -1,9 +1,10 @@
 html {
   background-repeat: no-repeat;
-  background-color: #6b6b00;
+  background-color: #6B6B00;
 }
 
 body{
+  font: 12pt serif;
   color: #DDDDD0;
   background-color: #242526;
   border: 3px solid #DDDDD0;
@@ -19,6 +20,28 @@ div{
   overflow: auto;
 }
 
+button {
+  border: 3px solid #242526;
+  border-radius: 10px;
+  font: bold 14pt serif;
+  text-align: center;
+  cursor: pointer;
+  color: #DDDDD0;
+  background-color: #242526;
+  padding: 3px 3px 3px 3px;
+}
+
+.currentButton {
+  text-decoration:underline;
+  color: #ABAB00;
+}
+
+button:hover {
+  border: 3px solid #ED673C;
+  background-color: #444546;
+  color: #ED673C;
+}
+
 .navbar {
   border-top: 1px solid #DDDDD0;
   border-bottom: 1px solid #DDDDD0;
@@ -29,4 +52,4 @@ div{
 a { text-decoration: none; }
 a:link { color:#2093C3; }
 a:visited { color:#2093C3; }
-a:hover { color:#AC03D8; }
+a:hover { color:#ED673C; }
